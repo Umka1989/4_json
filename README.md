@@ -1,19 +1,37 @@
 # Prettify JSON
 
-[TODO. There will be project description]
+Скрипт позволяет выводить содержимое файла с json удобном для чтения виде
 
 # Quickstart
 
-[TODO]
-
-Example of script launch on Linux, Python 3.5:
+```python
+from pprint_json.py import pretty_print_json, load_data
+data = load_data(filepath)
+pretty_print_json(data)
+```
 
 ```bash
 
 $ python pprint_json.py <path to file>
-# TODO add output example
-
 ```
+
+# Output examole
+
+[
+    {
+        "Cells": {
+            "Address": "улица Академика Павлова, дом 10",
+            "AdmArea": "Западный административный округ",
+            "ClarificationOfWorkingHours": null,
+            "District": "район Кунцево",
+            "IsNetObject": "да",
+            "Name": "Ароматный Мир",
+            "OperatingCompany": "Ароматный Мир",
+            "PublicPhone": [
+                {
+                    "PublicPhone": "(495) 777-51-95"
+                }
+            ]
 
 # Project Goals
 
