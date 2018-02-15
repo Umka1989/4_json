@@ -1,6 +1,6 @@
 # Prettify JSON
 
-Скрипт позволяет выводить содержимое файла с json удобном для чтения виде
+Script print json data in easy to read way
 
 # Quickstart
 

@@ -11,6 +11,6 @@ def pretty_print_json(json_data):
 
 
 if __name__ == '__main__':
-    data = load_data(filepath)
-    pretty_print_json(data)
+    loaded_json = load_data(filepath)
+    pretty_print_json(loaded_json)
 
