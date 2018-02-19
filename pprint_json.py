@@ -15,8 +15,8 @@ def pretty_print_json(json_data):
 if __name__ == '__main__':
     if len(sys.argv) > 1:
         if os.path.exists(sys.argv[1]):
-            data = load_data(sys.argv[1])
-            pretty_print_json(data)
+            json_data = load_data(sys.argv[1])
+            pretty_print_json(json_data)
         else:
             print ('need positional first argument - correct path to file')
 
