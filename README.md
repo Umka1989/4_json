@@ -32,7 +32,12 @@ $ python pprint_json.py <path to file>
                     "PublicPhone": "(495) 777-51-95"
                 }
             ]
+        }
+    }
+]	
+
 ```
+
 # Project Goals
 
 The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
